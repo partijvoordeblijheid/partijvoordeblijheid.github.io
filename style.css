@@ -1,0 +1,54 @@
+/*dit doet niks is alleen om makelijk het kleurenpallet te zien*/
+.colors {
+    color: rgb(84, 73, 75);
+    color: rgb(126, 130, 135);
+    color: rgb(243, 242, 221);
+    color: rgb(185, 131, 137);
+    color: rgb(219, 41, 85);
+}
+
+html, body{
+    color: black;
+    background-color: rgb(243,242,221);
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#logo{
+    margin-left: -90px;
+    width: 500px;
+    height: 200px;
+}
+
+#sidebar_right{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 70px solid rgb(219, 41, 85);
+    top: 0;
+    right: 0%;
+}
+
+#sidebar_left{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 70px solid rgb(219, 41, 85);
+    top: 0;
+    left: 0%;
+}
+
+#main_section {
+    text-align: center;
+}
+
+#menu, a:visited, a:link, a:active {
+    margin-left: -6px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
