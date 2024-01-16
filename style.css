@@ -52,3 +52,7 @@ html, body{
 a:hover {
     color: gray;
 }
+
+#ads {
+    background-color: blueviolet;
+}
