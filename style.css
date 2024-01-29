@@ -39,7 +39,10 @@ html, body{
 }
 
 #main_section {
+    position: absolute;
     text-align: center;
+    left: 15%;
+    z-index: 1;
 }
 
 #menu, a:visited, a:link, a:active {
